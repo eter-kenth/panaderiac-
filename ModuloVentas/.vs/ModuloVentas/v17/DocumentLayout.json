@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|c:\\users\\joser\\downloads\\trabajos de poo\\moduloventas\\moduloventas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|solutionrelative:moduloventas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\moduloventas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|solutionrelative:moduloventas\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|c:\\users\\joser\\downloads\\trabajos de poo\\moduloventas\\moduloventas\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|solutionrelative:moduloventas\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|c:\\users\\joser\\downloads\\trabajos de poo\\moduloventas\\moduloventas\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|solutionrelative:moduloventas\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|c:\\users\\joser\\downloads\\trabajos de poo\\moduloventas\\moduloventas\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|solutionrelative:moduloventas\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|c:\\users\\joser\\downloads\\trabajos de poo\\moduloventas\\moduloventas\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001F8452-7D60-4AF2-BD8E-D6AC10341AE2}|ModuloVentas\\ModuloVentas.csproj|solutionrelative:moduloventas\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 182,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "ModuloVentas\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\MenuPrincipal.cs",
+              "RelativeToolTip": "ModuloVentas\\MenuPrincipal.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAASwD8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:53:55.731Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "ModuloVentas\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModuloVentas\\MenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:31:06.517Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Compra.cs",
+              "RelativeDocumentMoniker": "ModuloVentas\\Compra.cs",
+              "ToolTip": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Compra.cs",
+              "RelativeToolTip": "ModuloVentas\\Compra.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIA1wCAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:45:28.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Compra.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Compra.cs",
+              "RelativeDocumentMoniker": "ModuloVentas\\Compra.cs",
+              "ToolTip": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Compra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModuloVentas\\Compra.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:40:46.579Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Caja.cs",
+              "DocumentMoniker": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Caja.cs",
+              "RelativeDocumentMoniker": "ModuloVentas\\Caja.cs",
+              "ToolTip": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Caja.cs",
+              "RelativeToolTip": "ModuloVentas\\Caja.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAASwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T01:31:13.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Caja.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Caja.cs",
+              "RelativeDocumentMoniker": "ModuloVentas\\Caja.cs",
+              "ToolTip": "C:\\Users\\joser\\Downloads\\Trabajos de POO\\ModuloVentas\\ModuloVentas\\Caja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModuloVentas\\Caja.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T01:20:48.433Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
