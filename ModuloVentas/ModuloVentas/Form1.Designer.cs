@@ -134,7 +134,7 @@
             this.picPanDeVida.Location = new System.Drawing.Point(137, 15);
             this.picPanDeVida.Margin = new System.Windows.Forms.Padding(4);
             this.picPanDeVida.Name = "picPanDeVida";
-            this.picPanDeVida.Size = new System.Drawing.Size(233, 242);
+            this.picPanDeVida.Size = new System.Drawing.Size(307, 255);
             this.picPanDeVida.TabIndex = 6;
             this.picPanDeVida.TabStop = false;
             // 

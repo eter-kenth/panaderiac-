@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,6 +62,8 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(125)))), ((int)(((byte)(86)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column10,
@@ -76,6 +79,8 @@
             this.dataGridView1.Location = new System.Drawing.Point(38, 196);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1303, 544);
             this.dataGridView1.TabIndex = 0;
@@ -157,9 +162,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(31, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(374, 37);
+            this.label1.Size = new System.Drawing.Size(259, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "HISTORIAL DE VENTAS";
+            this.label1.Text = "Historial de ventas";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // menuStrip1
@@ -170,7 +175,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1381, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1381, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -182,7 +187,7 @@
             this.documentosToolStripMenuItem,
             this.regresarAlMenuDeVentasToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
             this.archivoToolStripMenuItem.Text = "Archivo";
             this.archivoToolStripMenuItem.Click += new System.EventHandler(this.archivoToolStripMenuItem_Click);
             // 
@@ -198,13 +203,13 @@
             // calculadoraToolStripMenuItem
             // 
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             // 
             // excelToolStripMenuItem
             // 
             this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.excelToolStripMenuItem.Text = "Excel";
             // 
             // configuraToolStripMenuItem
@@ -221,19 +226,19 @@
             // colorToolStripMenuItem
             // 
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.colorToolStripMenuItem.Text = "Color";
             // 
             // imopresionToolStripMenuItem
             // 
             this.imopresionToolStripMenuItem.Name = "imopresionToolStripMenuItem";
-            this.imopresionToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.imopresionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.imopresionToolStripMenuItem.Text = "Imopresion";
             // 
             // otrosToolStripMenuItem
             // 
             this.otrosToolStripMenuItem.Name = "otrosToolStripMenuItem";
-            this.otrosToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.otrosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.otrosToolStripMenuItem.Text = "Otros ";
             // 
             // documentosToolStripMenuItem
@@ -256,7 +261,7 @@
             this.eToolStripMenuItem,
             this.manualDeUsuarioToolStripMenuItem});
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 26);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // sobreElSIToolStripMenuItem

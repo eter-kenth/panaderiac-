@@ -33,5 +33,28 @@ namespace ModuloVentas
             this.Close();
 
         }
+
+        private void panaderiaSedeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sucursal sucursal = new sucursal();
+
+            sucursal.Show();
+            this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmCompra_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
