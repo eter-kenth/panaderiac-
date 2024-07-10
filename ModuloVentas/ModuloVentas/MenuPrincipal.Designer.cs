@@ -46,17 +46,14 @@
             this.otrosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pctbPanVida = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pctbCaja = new System.Windows.Forms.PictureBox();
             this.pctbCompra = new System.Windows.Forms.PictureBox();
             this.pctbProduccion = new System.Windows.Forms.PictureBox();
             this.pctbVenta = new System.Windows.Forms.PictureBox();
             this.lblProduccion = new System.Windows.Forms.Label();
-            this.lblCaja = new System.Windows.Forms.Label();
             this.lblVenta = new System.Windows.Forms.Label();
             this.lblCompra = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctbPanVida)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctbCaja)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctbCompra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctbProduccion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctbVenta)).BeginInit();
@@ -91,7 +88,7 @@
             this.calculadoraToolStripMenuItem,
             this.excelToolStripMenuItem});
             this.mnrHerramientas.Name = "mnrHerramientas";
-            this.mnrHerramientas.Size = new System.Drawing.Size(224, 26);
+            this.mnrHerramientas.Size = new System.Drawing.Size(185, 26);
             this.mnrHerramientas.Text = "Herramientas";
             // 
             // calculadoraToolStripMenuItem
@@ -113,7 +110,7 @@
             this.impresionToolStripMenuItem,
             this.otrosToolStripMenuItem});
             this.mnrConfiguracion.Name = "mnrConfiguracion";
-            this.mnrConfiguracion.Size = new System.Drawing.Size(224, 26);
+            this.mnrConfiguracion.Size = new System.Drawing.Size(185, 26);
             this.mnrConfiguracion.Text = "Configuracion";
             // 
             // colorToolStripMenuItem
@@ -137,7 +134,7 @@
             // mnrSalir
             // 
             this.mnrSalir.Name = "mnrSalir";
-            this.mnrSalir.Size = new System.Drawing.Size(224, 26);
+            this.mnrSalir.Size = new System.Drawing.Size(185, 26);
             this.mnrSalir.Text = "Salir";
             this.mnrSalir.Click += new System.EventHandler(this.salirToolStripMenuItem_Click_1);
             // 
@@ -202,18 +199,6 @@
             this.label1.Text = "Bienvenido al sistema de Pan De Vida";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pctbCaja
-            // 
-            this.pctbCaja.BackColor = System.Drawing.Color.Transparent;
-            this.pctbCaja.Image = global::ModuloVentas.Properties.Resources.cashier_machine_cash_register_pos_icon_225168;
-            this.pctbCaja.Location = new System.Drawing.Point(1480, 207);
-            this.pctbCaja.Margin = new System.Windows.Forms.Padding(4);
-            this.pctbCaja.Name = "pctbCaja";
-            this.pctbCaja.Size = new System.Drawing.Size(168, 160);
-            this.pctbCaja.TabIndex = 10;
-            this.pctbCaja.TabStop = false;
-            this.pctbCaja.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // pctbCompra
             // 
             this.pctbCompra.BackColor = System.Drawing.Color.Transparent;
@@ -231,7 +216,7 @@
             this.pctbProduccion.BackColor = System.Drawing.Color.Transparent;
             this.pctbProduccion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pctbProduccion.Image = global::ModuloVentas.Properties.Resources._4213871_architecture_building_construction_factory_production_urban_115438;
-            this.pctbProduccion.Location = new System.Drawing.Point(466, 205);
+            this.pctbProduccion.Location = new System.Drawing.Point(1002, 96);
             this.pctbProduccion.Margin = new System.Windows.Forms.Padding(4);
             this.pctbProduccion.Name = "pctbProduccion";
             this.pctbProduccion.Size = new System.Drawing.Size(139, 149);
@@ -255,7 +240,7 @@
             // 
             this.lblProduccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
             this.lblProduccion.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProduccion.Location = new System.Drawing.Point(467, 393);
+            this.lblProduccion.Location = new System.Drawing.Point(1003, 284);
             this.lblProduccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProduccion.Name = "lblProduccion";
             this.lblProduccion.Size = new System.Drawing.Size(173, 33);
@@ -263,18 +248,6 @@
             this.lblProduccion.Text = "Produccion";
             this.lblProduccion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblProduccion.Click += new System.EventHandler(this.lblProduccion_Click);
-            // 
-            // lblCaja
-            // 
-            this.lblCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
-            this.lblCaja.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCaja.Location = new System.Drawing.Point(1474, 395);
-            this.lblCaja.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblCaja.Name = "lblCaja";
-            this.lblCaja.Size = new System.Drawing.Size(173, 33);
-            this.lblCaja.TabIndex = 15;
-            this.lblCaja.Text = "Caja";
-            this.lblCaja.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblVenta
             // 
@@ -308,12 +281,10 @@
             this.ClientSize = new System.Drawing.Size(1630, 901);
             this.Controls.Add(this.lblCompra);
             this.Controls.Add(this.lblVenta);
-            this.Controls.Add(this.lblCaja);
             this.Controls.Add(this.lblProduccion);
             this.Controls.Add(this.pctbVenta);
             this.Controls.Add(this.pctbProduccion);
             this.Controls.Add(this.pctbCompra);
-            this.Controls.Add(this.pctbCaja);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pctbPanVida);
             this.Controls.Add(this.menuStrip1);
@@ -329,7 +300,6 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctbPanVida)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctbCaja)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctbCompra)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctbProduccion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctbVenta)).EndInit();
@@ -357,12 +327,10 @@
         private System.Windows.Forms.ToolStripMenuItem otrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnrSalir;
         private System.Windows.Forms.ToolStripMenuItem otrosToolStripMenuItem1;
-        private System.Windows.Forms.PictureBox pctbCaja;
         private System.Windows.Forms.PictureBox pctbCompra;
         private System.Windows.Forms.PictureBox pctbProduccion;
         private System.Windows.Forms.PictureBox pctbVenta;
         private System.Windows.Forms.Label lblProduccion;
-        private System.Windows.Forms.Label lblCaja;
         private System.Windows.Forms.Label lblVenta;
         private System.Windows.Forms.Label lblCompra;
     }

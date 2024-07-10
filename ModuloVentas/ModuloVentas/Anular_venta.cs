@@ -41,7 +41,7 @@ namespace ModuloVentas
             textBox6.Text = " ";
             textBox5.Text = " ";
             textBox2.Text = " ";
-            textBox4.Text = " ";
+            
         }
 
         private void regresarAlMenuDeVentasToolStripMenuItem_Click_1(object sender, EventArgs e)

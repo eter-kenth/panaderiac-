@@ -56,5 +56,32 @@ namespace ModuloVentas
         {
 
         }
+
+        private void solicitudDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            solicitud_de_compra solicitudDeCompra = new solicitud_de_compra();
+
+            solicitudDeCompra.Show();
+            this.Close();
+        }
+
+        private void pedidoSolicitudDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pedido_solicitud_compra psCompra = new pedido_solicitud_compra();
+
+            psCompra.Show();
+            this.Close();
+
+        }
+
+        private void compraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            compras Compras = new compras();
+
+            Compras.Show();
+            this.Close();
+
+
+        }
     }
 }

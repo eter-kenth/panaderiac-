@@ -45,12 +45,12 @@
             this.manualUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panaderiaSedeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sucursalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblCompra = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.solicitudDeCompraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoSolicitudDeCompraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.compraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sucursalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblCompra = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -181,6 +181,27 @@
             this.panaderiaSedeToolStripMenuItem.Text = "Panaderia sede principal";
             this.panaderiaSedeToolStripMenuItem.Click += new System.EventHandler(this.panaderiaSedeToolStripMenuItem_Click);
             // 
+            // solicitudDeCompraToolStripMenuItem
+            // 
+            this.solicitudDeCompraToolStripMenuItem.Name = "solicitudDeCompraToolStripMenuItem";
+            this.solicitudDeCompraToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.solicitudDeCompraToolStripMenuItem.Text = "Solicitud de compra";
+            this.solicitudDeCompraToolStripMenuItem.Click += new System.EventHandler(this.solicitudDeCompraToolStripMenuItem_Click);
+            // 
+            // pedidoSolicitudDeCompraToolStripMenuItem
+            // 
+            this.pedidoSolicitudDeCompraToolStripMenuItem.Name = "pedidoSolicitudDeCompraToolStripMenuItem";
+            this.pedidoSolicitudDeCompraToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.pedidoSolicitudDeCompraToolStripMenuItem.Text = "Pedido solicitud de compra";
+            this.pedidoSolicitudDeCompraToolStripMenuItem.Click += new System.EventHandler(this.pedidoSolicitudDeCompraToolStripMenuItem_Click);
+            // 
+            // compraToolStripMenuItem
+            // 
+            this.compraToolStripMenuItem.Name = "compraToolStripMenuItem";
+            this.compraToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.compraToolStripMenuItem.Text = "Compra";
+            this.compraToolStripMenuItem.Click += new System.EventHandler(this.compraToolStripMenuItem_Click);
+            // 
             // sucursalesToolStripMenuItem
             // 
             this.sucursalesToolStripMenuItem.Name = "sucursalesToolStripMenuItem";
@@ -211,24 +232,6 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // solicitudDeCompraToolStripMenuItem
-            // 
-            this.solicitudDeCompraToolStripMenuItem.Name = "solicitudDeCompraToolStripMenuItem";
-            this.solicitudDeCompraToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.solicitudDeCompraToolStripMenuItem.Text = "Solicitud de compra";
-            // 
-            // pedidoSolicitudDeCompraToolStripMenuItem
-            // 
-            this.pedidoSolicitudDeCompraToolStripMenuItem.Name = "pedidoSolicitudDeCompraToolStripMenuItem";
-            this.pedidoSolicitudDeCompraToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.pedidoSolicitudDeCompraToolStripMenuItem.Text = "Pedido solicitud de compra";
-            // 
-            // compraToolStripMenuItem
-            // 
-            this.compraToolStripMenuItem.Name = "compraToolStripMenuItem";
-            this.compraToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.compraToolStripMenuItem.Text = "Compra";
             // 
             // frmCompra
             // 

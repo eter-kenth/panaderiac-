@@ -53,30 +53,29 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuiracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.regresarAlMenuDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuiracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.impresionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.documentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.regresarAlMenuDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -332,50 +331,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(805, 264);
             this.dataGridView2.TabIndex = 19;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(165, 183);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(159, 39);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Busqueda ";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(165, 381);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(173, 39);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Devolucion";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(553, 98);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 33);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "Venta";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(552, 445);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(367, 39);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "Datos sobre la devolucion";
-            // 
             // Column13
             // 
             this.Column13.HeaderText = "Nombre del producto";
@@ -418,25 +373,49 @@
             this.Column11.Name = "Column11";
             this.Column11.Width = 125;
             // 
-            // textBox4
+            // label5
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(321, 662);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(193, 33);
-            this.textBox4.TabIndex = 25;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(165, 183);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(154, 37);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Busqueda ";
             // 
-            // label11
+            // label8
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(49, 662);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(235, 33);
-            this.label11.TabIndex = 24;
-            this.label11.Text = "Carnet de empleado\r\n";
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(165, 381);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(168, 37);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Devolucion";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(553, 98);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 33);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Venta";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(226)))), ((int)(((byte)(206)))));
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(552, 445);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(353, 37);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Datos sobre la devolucion";
             // 
             // button3
             // 
@@ -457,7 +436,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem});
+            this.archivoToolStripMenuItem,
+            this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1388, 28);
@@ -484,29 +464,6 @@
             this.herramientaToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
             this.herramientaToolStripMenuItem.Text = "Herramienta";
             // 
-            // configuiracionToolStripMenuItem
-            // 
-            this.configuiracionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.colorToolStripMenuItem,
-            this.impresionToolStripMenuItem,
-            this.otrosToolStripMenuItem});
-            this.configuiracionToolStripMenuItem.Name = "configuiracionToolStripMenuItem";
-            this.configuiracionToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.configuiracionToolStripMenuItem.Text = "Configuiracion";
-            // 
-            // documentosToolStripMenuItem
-            // 
-            this.documentosToolStripMenuItem.Name = "documentosToolStripMenuItem";
-            this.documentosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.documentosToolStripMenuItem.Text = "Documentos";
-            // 
-            // regresarAlMenuDeVentasToolStripMenuItem
-            // 
-            this.regresarAlMenuDeVentasToolStripMenuItem.Name = "regresarAlMenuDeVentasToolStripMenuItem";
-            this.regresarAlMenuDeVentasToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.regresarAlMenuDeVentasToolStripMenuItem.Text = "Regresar al menu de ventas";
-            this.regresarAlMenuDeVentasToolStripMenuItem.Click += new System.EventHandler(this.regresarAlMenuDeVentasToolStripMenuItem_Click_1);
-            // 
             // calculadoraToolStripMenuItem
             // 
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
@@ -518,6 +475,16 @@
             this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
             this.excelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.excelToolStripMenuItem.Text = "Excel";
+            // 
+            // configuiracionToolStripMenuItem
+            // 
+            this.configuiracionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.colorToolStripMenuItem,
+            this.impresionToolStripMenuItem,
+            this.otrosToolStripMenuItem});
+            this.configuiracionToolStripMenuItem.Name = "configuiracionToolStripMenuItem";
+            this.configuiracionToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.configuiracionToolStripMenuItem.Text = "Configuiracion";
             // 
             // colorToolStripMenuItem
             // 
@@ -537,6 +504,25 @@
             this.otrosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.otrosToolStripMenuItem.Text = "Otros";
             // 
+            // documentosToolStripMenuItem
+            // 
+            this.documentosToolStripMenuItem.Name = "documentosToolStripMenuItem";
+            this.documentosToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.documentosToolStripMenuItem.Text = "Documentos";
+            // 
+            // regresarAlMenuDeVentasToolStripMenuItem
+            // 
+            this.regresarAlMenuDeVentasToolStripMenuItem.Name = "regresarAlMenuDeVentasToolStripMenuItem";
+            this.regresarAlMenuDeVentasToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.regresarAlMenuDeVentasToolStripMenuItem.Text = "Regresar al menu de ventas";
+            this.regresarAlMenuDeVentasToolStripMenuItem.Click += new System.EventHandler(this.regresarAlMenuDeVentasToolStripMenuItem_Click_1);
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
             // Anular_venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -544,8 +530,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(125)))), ((int)(((byte)(86)))));
             this.ClientSize = new System.Drawing.Size(1388, 836);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -616,8 +600,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
@@ -630,5 +612,6 @@
         private System.Windows.Forms.ToolStripMenuItem colorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem impresionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem otrosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
     }
 }

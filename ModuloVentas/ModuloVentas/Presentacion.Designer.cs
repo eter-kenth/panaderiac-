@@ -92,7 +92,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(589, 48);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Panaderia Gestion";
+            this.label1.Text = "Nicasoftpan";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 

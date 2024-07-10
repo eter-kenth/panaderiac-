@@ -74,3 +74,7 @@ C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.cspr
 C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.csproj.CoreCompileInputs.cache
 C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.exe
 C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.pdb
+C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.solicitud_de_compra.resources
+C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.pedido_solicitud_compra.resources
+C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.compras.resources
+C:\Users\98272\panaderiac-\ModuloVentas\ModuloVentas\obj\Debug\ModuloVentas.plan_de_produccion.resources

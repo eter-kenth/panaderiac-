@@ -99,5 +99,10 @@ namespace ModuloVentas
         {
 
         }
+
+        private void lblCaja_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

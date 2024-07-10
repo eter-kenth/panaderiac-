@@ -33,5 +33,13 @@ namespace ModuloVentas
             this.Close();
 
         }
+
+        private void planDeProduccionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            plan_de_produccion produccion = new plan_de_produccion();
+
+            produccion.Show();
+            this.Close();
+        }
     }
 }
